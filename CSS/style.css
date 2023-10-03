@@ -7,39 +7,45 @@ body{
     font-size: 16px;
 }
 
-div h1{
-    font-size: 50px;
+body h1{
+    font-size: 60px;
 }
 
-div h2{
-    font-size: 25px;
+body h2{
+    font-size: 30px;
+}
+
+body b{
+    font-weight: bold;
 }
 
 .header{
     width: 100%;
+    height: 600px;
     margin: 0 auto;/*二つ目の引数は左右のmargin(他のブロックからの距離:ここでは壁)autoにすることでwidthが効く*/
     background: rgb(235, 227, 175);
     font-weight: 900;
     color: #333;
+    display: flex;/*header内での中央揃え,logoを真ん中に持ってくる*/
+    justify-content: center;
+    align-items:center;
 }
 
 /*logo*/
 .logo{
-    display: flex;
+    display: flex;/*2つのコンテンツの中央揃え,divとimgを真ん中に持ってくる*/
     justify-content: center;
     align-items:center;
 }
 
 .logo div{
-    padding: 0 1%;
+    padding: 0 10px;
 }
 
 .logo img{
     display: inline-block;/*画像のテキスト化*/
-    width: 200px;
-}
-
-.logo_words{
+    width: 250px;
+    height: 250px;
 }
 
 .logo_words div{
@@ -47,3 +53,20 @@ div h2{
     padding: 2px;
 
 }
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    background: #EEE;
+    padding: 5%;
+    line-height: 2em;
+}
+
+body p{
+    margin-top: 30px;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+
+
