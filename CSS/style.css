@@ -49,8 +49,8 @@ body b{
     display: inline-block;/*画像のテキスト化*/
     width: 250px;
     height: 250px;
-    max-width: 47vw;
-    max-height: 47vw;
+    max-width: 45vw;
+    max-height: 45vw;
 }
 
 .logo_words div{
