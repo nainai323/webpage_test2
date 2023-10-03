@@ -8,12 +8,12 @@ body{
 }
 
 body h1{
-    font-size: min(60px, 30vw);
+    font-size: min(60px, 24vw);
 
 }
 
 body h2{
-    font-size: min(30px, 15vw);
+    font-size: min(30px, 12vw);
 }
 
 body b{
@@ -35,6 +35,7 @@ body b{
 
 /*logo*/
 .logo{
+    align-items: flex-start;
     display: flex;/*2つのコンテンツの中央揃え,divとimgを真ん中に持ってくる*/
     justify-content: center;
     align-items:center;
