@@ -35,8 +35,9 @@ body b{
 
 /*logo*/
 .logo{
-    align-items: flex-start;
+
     display: flex;/*2つのコンテンツの中央揃え,divとimgを真ん中に持ってくる*/
+    align-items: flex-start;
     justify-content: center;
     align-items:center;
 }
