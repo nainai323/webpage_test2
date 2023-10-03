@@ -28,6 +28,7 @@ body b{
     font-weight: 900;
     color: #333;
     display: flex;/*header内での中央揃え,logoを真ん中に持ってくる*/
+    align-items: flex-start;
     justify-content: center;
     align-items:center;
 }
