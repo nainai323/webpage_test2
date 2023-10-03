@@ -8,12 +8,12 @@ body{
 }
 
 body h1{
-    font-size: min(50vw, 60px);
+    font-size: max(30vw, 40px);
 
 }
 
 body h2{
-    font-size: min(25px 50vw);
+    font-size: max(15vw, 20px);
 }
 
 body b{
