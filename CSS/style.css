@@ -7,16 +7,16 @@ body{
     font-size: 16px;
 }
 
-.h1{
-    font-size: 100;
+div h1{
+    font-size: 50px;
 }
 
-.h2{
-    font-size: 50;
+div h2{
+    font-size: 25px;
 }
 
 .header{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;/*二つ目の引数は左右のmargin(他のブロックからの距離:ここでは壁)autoにすることでwidthが効く*/
     background: rgb(235, 227, 175);
 }
@@ -30,6 +30,6 @@ body{
 
 .logo img{
     display: inline-block;/*画像のテキスト化*/
-    width: 200px;
+    height: 200px;
 }
 
