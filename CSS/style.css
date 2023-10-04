@@ -58,6 +58,7 @@ ul,li {
     right: 0;
     z-index: 999;
     align-items: center;
+    border-bottom: 1px solid #333;
 }
 
 .header__inner {
@@ -115,6 +116,7 @@ ul,li {
   
 .hamburger span:nth-child(1) {
     top: 0;
+    background-color: #F33;
 }
   
 .hamburger span:nth-child(2) {
