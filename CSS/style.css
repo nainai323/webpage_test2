@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Zen+Kaku+Gothic+Antique:wght@400;900&display=swap');
 
 body{
-    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-family: "Roboto", "Zen Kaku Gothic Antique", sans-serif;
     font-size: 16px;
-    border-top: 5px solid rgb(251, 154, 236);
-    border-bottom: 5px solid rgb(251, 154, 236);
+    border-top: 10px solid rgb(192, 6, 229);
+    border-bottom: 10px solid rgb(192, 6, 229);
 }
 
 body h1{ 
@@ -18,7 +19,7 @@ body h1{
 body h2{
     -webkit-text-stroke: 1px #EEE;
     color: rgba(20, 20, 20, 0.8); 
-    font-size: min(60px, 14vw);
+    font-size: min(60px, 20vw);
     text-align: right;
 }
 
@@ -27,14 +28,14 @@ body h3{
 }
 
 body h4{
+    text-align: center;
     font-size: 30px;
+    /*margin-top: 16px;*/
+    margin-bottom: 16px;
 }
 
-body b{
-    font-weight: bold;
-}
-
-.header{
+/*top*/
+.top{
     width: 100%;
     height: 480px;
     margin: 0 auto;/*二つ目の引数は左右のmargin(他のブロックからの距離:ここでは壁)autoにすることでwidthが効く*/
@@ -45,7 +46,6 @@ body b{
     color: #333;  
 }
 
-/*logo*/
 .logo{
     padding: 30px 0;
     display: flex;/*2つのコンテンツの中央揃え,divとimgを真ん中に持ってくる*/
@@ -66,11 +66,7 @@ body b{
     max-height: 47vw;
 }
 
-.logo_words div{
-    text-align: left;
-    padding: 2px;
-
-}
+/*content*/
 
 .content {
     width: 100%;
@@ -78,21 +74,27 @@ body b{
     background: #EEE;
     padding: 5%;
     line-height: 2em;
-    border-bottom: 1px solid #333;
+}
+
+.content .top_message{
+    text-align: center;
+    padding: 15% 0;
 }
 
 .content div{
-    margin-bottom: 5%;
+    padding: 10% 0;
+    border-bottom: 1px solid #333;
 }
 
-body p{
-    margin-top: 5%;
-    margin-bottom: 5%;
+p{
+    /*margin-top: 5%;
+    margin-bottom: 5%;*/
     padding-left: 1em;
     text-indent: -1em;
 }
 
-.header_links ul{/*最後に記載されているものulが要素でdisplay:flexでいじるのはその子要素*/
+/*
+.header_links ul{/*最後に記載されているものulが要素でdisplay:flexでいじるのはその子要素
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +113,7 @@ body p{
 }
 
 .header_links{
-    /*background-color: rgb(243, 243, 185);*/
+    /*background-color: rgb(243, 243, 185);
     background-color: #E8E8E8;
     border-bottom: 1px solid #333;
     padding: 0;
@@ -131,4 +133,6 @@ body p{
 .header_links img{
     width: 20px;
 }
+
+*/
 
