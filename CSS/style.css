@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;900&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Zen+Kaku+Gothic+Antique:wght@400;900&display=swap');
 
 body{
@@ -11,14 +11,14 @@ body{
 }
 
 body h1{ 
-    color:rgba(20, 20, 20, 0.4); 
+    color:rgba(20, 20, 20, .4); 
     font-size: min(120px, 30vw);
     -webkit-text-stroke: 1px #EEE;
 }
 
 body h2{
     -webkit-text-stroke: 1px #EEE;
-    color: rgba(20, 20, 20, 0.8); 
+    color:rgba(20, 20, 20, .8); 
     font-size: min(60px, 20vw);
     text-align: right;
 }
