@@ -5,6 +5,7 @@
 body{
     font-family: "Zen Kaku Gothic Antique", serif;
     font-size: 16px;
+    border-top: 5px solid #D0B;
 }
 
 body h1{
@@ -39,7 +40,7 @@ body b{
     background-size: contain;
     /* rgb(235, 227, 175);*/
     font-weight: 900;
-    color: #333;
+    color: #333;  
     display: flex;/*header内での中央揃え,logoを真ん中に持ってくる*/
     align-items: flex-start;
     justify-content: center;
@@ -48,7 +49,6 @@ body b{
 
 /*logo*/
 .logo{
-
     display: flex;/*2つのコンテンツの中央揃え,divとimgを真ん中に持ってくる*/
     align-items: flex-start;
     justify-content: center;
@@ -92,5 +92,31 @@ body p{
     text-indent: -1em;
 }
 
+.header ul{/*最後に記載されているものulが要素でdisplay:flexでいじるのはその子要素*/
+    display: flex;
+    justify-content: center;
+}
 
+.header2.links{
+    align-self: flex-end;
+}
+
+
+.header ul li{
+    text-align: center;
+    border-right: 2px solid #333;
+    min-width: 30%;
+}
+
+.header ul li:first-child{
+    border-left: 2px solid #EEE;
+}
+
+.header ul li a{
+    display: block;
+    background-color: #EEE;
+    color: #333;
+    font-weight: 400;
+    font-size: min(16px, 2vw);
+}
 
