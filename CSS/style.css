@@ -11,14 +11,14 @@ body{
 }
 
 body h1{ 
-    color:rgba(20, 20, 20, .4); 
+    color:rgba(20, 20, 20, .51); 
     font-size: min(120px, 30vw);
     -webkit-text-stroke: 1px #EEE;
 }
 
 body h2{
     -webkit-text-stroke: 1px #EEE;
-    color:rgba(20, 20, 20, .8); 
+    color:rgba(20, 20, 20, .9); 
     font-size: min(60px, 20vw);
     text-align: right;
 }
