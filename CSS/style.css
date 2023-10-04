@@ -3,21 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;900&display=swap');
 
 body{
-    font-family: "Zen Kaku Gothic Antique", serif;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
     font-size: 16px;
-    border-top: 5px solid #D0B;
+    border-top: 5px solid rgb(251, 154, 236);
+    border-bottom: 5px solid rgb(251, 154, 236);
 }
 
-body h1{
-    -webkit-text-stroke: 1px #333;
-    color: #EEE;
-    font-size: min(60px, 10vw);
+body h1{ 
+    color:rgba(20, 20, 20, 0.4); 
+    font-size: min(120px, 30vw);
+    -webkit-text-stroke: 1px #EEE;
 }
 
 body h2{
-    -webkit-text-stroke: 1px #333;
-    color: #EEE;
-    font-size: min(30px, 4vw);
+    -webkit-text-stroke: 1px #EEE;
+    color: rgba(20, 20, 20, 0.8); 
+    font-size: min(60px, 14vw);
+    text-align: right;
 }
 
 body h3{
@@ -34,25 +36,22 @@ body b{
 
 .header{
     width: 100%;
-    height: 400px;
+    height: 480px;
     margin: 0 auto;/*二つ目の引数は左右のmargin(他のブロックからの距離:ここでは壁)autoにすることでwidthが効く*/
     background-image:url(../img/IMG_8187.jpg);
     background-size: contain;
     /* rgb(235, 227, 175);*/
     font-weight: 900;
     color: #333;  
-    display: flex;/*header内での中央揃え,logoを真ん中に持ってくる*/
-    align-items: flex-start;
-    justify-content: center;
-    align-items:center;
 }
 
 /*logo*/
 .logo{
+    padding: 30px 0;
     display: flex;/*2つのコンテンツの中央揃え,divとimgを真ん中に持ってくる*/
     align-items: flex-start;
-    justify-content: center;
-    align-items:center;
+    justify-content: space-between;
+    align-items:flex-end;
 }
 
 .logo div{
