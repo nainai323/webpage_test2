@@ -79,6 +79,7 @@ body b{
     background: #EEE;
     padding: 5%;
     line-height: 2em;
+    border-bottom: 1px solid #333;
 }
 
 .content div{
@@ -92,31 +93,43 @@ body p{
     text-indent: -1em;
 }
 
-.header ul{/*最後に記載されているものulが要素でdisplay:flexでいじるのはその子要素*/
+.header_links ul{/*最後に記載されているものulが要素でdisplay:flexでいじるのはその子要素*/
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.header2.links{
-    align-self: flex-end;
-}
-
-
-.header ul li{
+.header_links ul li{
     text-align: center;
-    border-right: 2px solid #333;
+    border-right: 1px solid #333;
     min-width: 30%;
+    
+}
+.header_links ul li:first-child{
+    text-align: center;
+    border-right: 1px solid #333;
+    min-width: 10%;
 }
 
-.header ul li:first-child{
-    border-left: 2px solid #EEE;
+.header_links{
+    /*background-color: rgb(243, 243, 185);*/
+    background-color: #E8E8E8;
+    border-bottom: 1px solid #333;
+    padding: 0;
 }
 
-.header ul li a{
+.header_links ul li:first-child{
+    border-left: 1px solid #333;
+}
+
+.header_links ul li a{
     display: block;
-    background-color: #EEE;
     color: #333;
-    font-weight: 400;
+    font-weight: 900;
     font-size: min(16px, 2vw);
+}
+
+.header_links img{
+    width: 20px;
 }
 
