@@ -86,11 +86,15 @@ body h4{
     border-bottom: 1px solid #333;
 }
 
-p{
-    /*margin-top: 5%;
-    margin-bottom: 5%;*/
-    padding-left: 1em;
-    text-indent: -1em;
+.content img{
+    width: 100%;
+}
+
+body p{
+    /*margin-top: 5%;*/
+    margin-bottom:10px;
+    /* padding-left: 1em; */
+    /* text-indent: -1em; */
 }
 
 /*
