@@ -8,12 +8,19 @@ body{
 }
 
 body h1{
+    -webkit-text-stroke: 1px #333;
+    color: #EEE;
     font-size: min(60px, 10vw);
-
 }
 
 body h2{
+    -webkit-text-stroke: 1px #333;
+    color: #EEE;
     font-size: min(30px, 5vw);
+}
+
+body h3{
+    font-size: 30px;
 }
 
 body b{
@@ -24,7 +31,9 @@ body b{
     width: 100%;
     height: 600px;
     margin: 0 auto;/*二つ目の引数は左右のmargin(他のブロックからの距離:ここでは壁)autoにすることでwidthが効く*/
-    background: rgb(235, 227, 175);
+    background-image:url(../img/IMG_8187.jpg);
+    background-size: contain;
+    /* rgb(235, 227, 175);*/
     font-weight: 900;
     color: #333;
     display: flex;/*header内での中央揃え,logoを真ん中に持ってくる*/
@@ -70,6 +79,7 @@ body b{
 
 body p{
     margin-top: 5%;
+    margin-bottom: 5%;
     padding-left: 1em;
     text-indent: -1em;
 }
