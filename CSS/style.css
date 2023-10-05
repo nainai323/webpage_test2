@@ -17,8 +17,14 @@ body h1{
 body h2{
     -webkit-text-stroke: 1px #EEE;
     color:rgba(20, 20, 20, .9); 
-    font-size: min(60px, 20vw);
+    font-size: min(60px, 12vw);
     text-align: right;
+}
+
+.logo_word h2{
+    -webkit-text-stroke: 0.5px #EEE;
+    color:rgba(20, 20, 20, .9); 
+    font-size: min(30px, 6vw);
 }
 
 body h3{
@@ -116,7 +122,7 @@ ul,li {
   
 .hamburger span:nth-child(1) {
     top: 0;
-    background-color: #F33;
+    background-color: #933;
 }
   
 .hamburger span:nth-child(2) {
@@ -138,6 +144,9 @@ ul,li {
     font-weight: 900;
     color: #333;  
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo{
@@ -158,6 +167,12 @@ ul,li {
     height: 250px;
     max-width: 47vw;
     max-height: 47vw;
+}
+
+.logo .logo_word{
+    display: flex;
+    justify-content: center;
+    align-items: top;
 }
 
 /*content------------------------------------------------------*/
