@@ -8,23 +8,27 @@ body{
     font-size: 16px;
 }
 
-body h1{ 
+.top h1{ 
     color:rgba(20, 20, 20, .6); 
     font-size: min(120px, 30vw);
     -webkit-text-stroke: 1px #EEE;
 }
 
-body h2{
-    -webkit-text-stroke: 1px #EEE;
+.top h2{
+    -webkit-text-stroke: 0.45px #EEE;
     color:rgba(20, 20, 20, .9); 
-    font-size: min(60px, 12vw);
+    /* font-size: min(60px, 12vw); */
+    font-size: min(6vw,30px);
     text-align: right;
 }
 
-.logo_word h2{
-    -webkit-text-stroke: 0.5px #EEE;
-    color:rgba(20, 20, 20, .9); 
+.top .date h2{
+    -webkit-text-stroke: 0px #EEE;
+    color:rgba(240, 240, 240, 1); 
     font-size: min(30px, 6vw);
+    display: block;
+    padding: 5px;
+    background-color: rgba(20, 20, 20, .6);
 }
 
 body h3{
@@ -64,7 +68,7 @@ ul,li {
     right: 0;
     z-index: 999;
     align-items: center;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid rgb(245, 245, 245);
 }
 
 .header__inner {
